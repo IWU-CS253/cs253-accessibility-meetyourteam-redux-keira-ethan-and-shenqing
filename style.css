@@ -41,3 +41,10 @@ footer {
 #AboutNav ul li a:hover{
     color:#4b4b4b;
 }
+
+#KeiraIMG{
+    width: 50px;
+    height: 50px;
+    border: 3px, solid, rgb(67, 67, 67);
+    border-radius: 5px;
+}
