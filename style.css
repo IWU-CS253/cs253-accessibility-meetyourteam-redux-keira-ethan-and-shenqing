@@ -35,6 +35,9 @@ main {
 footer {
     text-align: center;
     padding: 20px 0;
-    background: #333;
+    background: #333333;
     color: #fff;
+}
+#AboutNav ul li a:hover{
+    color:#4b4b4b;
 }
