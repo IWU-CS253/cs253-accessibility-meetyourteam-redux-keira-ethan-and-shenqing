@@ -109,3 +109,26 @@ footer {
  .leave_review label, .leave_review input{
     padding-right: 10rem;
  }
+#service-page details {
+    background: white;
+    border: 1px solid #c8bcbc;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 600px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* source for how to do this kindd of dropdown: https://dev.to/ayushn21/details-summary-tags-html-s-best-kept-secret-4ak4 */
+/* Also: https://www.w3schools.com/tags/tag_summary.asp */
+#service-page summary {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+}
+
+#service-page summary:hover {
+    color: #1d5590;
+}
