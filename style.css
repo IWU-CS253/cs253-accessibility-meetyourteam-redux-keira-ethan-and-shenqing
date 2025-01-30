@@ -48,3 +48,25 @@ footer {
     border: 3px, solid, rgb(67, 67, 67);
     border-radius: 5px;
 }
+
+#service-page details {
+    background: white;
+    border: 1px solid #c8bcbc;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 600px;
+    transition: all 0.3s ease-in-out;
+}
+
+#service-page summary {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+}
+
+#service-page summary:hover {
+    color: #1d5590;
+}
