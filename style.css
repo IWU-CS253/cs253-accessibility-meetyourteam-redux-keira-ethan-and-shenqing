@@ -41,16 +41,25 @@ footer {
 #AboutNav ul li a:hover{
     color:#4b4b4b;
 }
-
+.AboutContainer{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.PersonalInfo-Text{
+    background-color: #cccccc;
+    padding: 10px;
+    clear: both;
+}
+.PersonalInfo-Text img {
+    float: left;
+    margin-right: 15px;
+}
+.PersonalInfo-Text, .PersonalInfo-Text img{
+    border: 3px, solid, rgb(67, 67, 67);
+    border-radius: 5px;
+}
 .companyPhoto{
     width: 150px;
     height: 150px;
-    border: 3px, solid, rgb(67, 67, 67);
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-}
-.aboutUs-Personal{
-    display: flex;
-    flex-wrap: nowrap;
 }
