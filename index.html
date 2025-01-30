@@ -7,20 +7,84 @@
 <body>
     <header>
         <h1>Welcome to Our Website Development Company</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
+        <div class="dropdown-menu">
+            <button class= "dropdown-button">Home</button>
+            <div class= "dd-content">
+                <a href="index.html">Home</a>
+                <a href="services.html">Reviews</a>
+                <a href="about.html">Hours</a>
+            </div>
+        </div>
+        <div class="dropdown-menu">
+            <button class= "dropdown-button">Services</button>
+            <div class= "dd-content">
+                <a href="services.html">Web Design</a>
+                <a href="services.html">Consultation</a>
+                <a href="services.html">Contact us</a>
+            </div>
+        </div>
+        <div class="dropdown-menu">
+            <button class= "dropdown-button">About</button>
+            <div class= "dd-content">
+                <a href="about.html">Meet Us</a>
+                <a href="about.html">Mission</a>
+                <a href="about.html">Location</a>
+            </div>
+        </div>
     </header>
 
     <main>
         <section>
             <h2>Welcome!</h2>
+
             <p>Welcome to our website. We specialize in web development services...</p>
         </section>
+        <div class="hours">
+        <h2 id="hours">Hours of Service</h2>
+        <p>Monday: 9am - 9:50am</p>
+        <p>Tuesday: 12pm - 4pm</p>
+        <p>Wednesday: 9am - 9:50am</p>
+        <p>Thursday: 4pm - 8pm</p>
+        <p>Friday: 9am - 9:50am</p>
+        <p>Saturday: 8am - 11:00am</p>
+        <p>Sunday: <i>closed</i></p>
+        <h2 id="review_head">Reviews</h2>
+        </div>
+        <!--star found at 
+        https://www.html.am/html-codes/character-codes/html-star-code.cfm#:~:text=You%20can't%20just%20enter,entity%20number%20or%20its%20name.
+        -->
+        <div class="review">
+            <b><p>Bobby Smith &#9733;&#9733;&#9733;&#9733;&#9733;</p></b>
+            <p>"Their design increased traffic to my business by 400%!"</p>
+        </div>
+        <div class="review">
+            <b><p>Jane Doe &#9733;&#9733;&#9733;&#9733;</p></b>
+            <p>"I get compliments all the time on how easy my website is to use now!"</p>
+        </div>
+        <div class="review">
+            <b><p>Greg &#9733;&#9733;&#9733;&#9733;</p></b>
+            <p>"A no-brainer for anyone looking to get more online traffic"</p>
+        </div>
+        <div class="review">
+            <b><p>Jessica Jones &#9733;&#9733;&#9733;&#9733;&#9733;</p></b>
+            <p>"Very knowledgeable and fantastic customer service."</p>
+        </div>
+        <div class="review">
+            <b><p>Oscar the Grouch &#9733;</p></b>
+            <p>"Weird inconvenient hours."</p>
+        </div>
+        <h2>Leave your own review!</h2>
+        <div class="review_submit">
+            <form class="leave_review">
+                <label>Name</label>
+                <input type="text">
+                <label>Number of Stars</label>
+                <input type="text">
+                <label>Review Message</label>
+                <input type="text">
+                <input type="submit" value="Leave Review" style="background-color: rgb(4, 128, 128);">
+            </form>
+        </div>
     </main>
 
     <footer>
