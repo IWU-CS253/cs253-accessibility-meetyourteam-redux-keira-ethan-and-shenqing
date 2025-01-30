@@ -35,6 +35,77 @@ main {
 footer {
     text-align: center;
     padding: 20px 0;
-    background: #333;
+    background: #333333;
     color: #fff;
 }
+#AboutNav ul li a:hover{
+    color:#4b4b4b;
+}
+
+#KeiraIMG{
+    width: 50px;
+    height: 50px;
+    border: 3px, solid, rgb(67, 67, 67);
+    border-radius: 5px;
+}
+
+/* source for how to do dropdown menu https://www.w3schools.com/howto/howto_css_dropdown.asp */
+.dropdown-button{
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+}
+
+.dropdown-menu{
+    position: relative;
+    display: inline-block; /* this is the key to making it vertical and not horizonatally oriented */
+}
+
+.dd-content{
+    display: none;
+    position: absolute;
+    background-color: #333;
+    box-shadow: 0rem, .5rem, 1rem, 0rem rgba(0, 0, 0, .2);
+}
+
+.dropdown-menu:hover .dd-content {
+    display: block;
+}
+
+.dd-content a{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: .75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.dd-content a:hover{
+    background-color:#757373;
+}
+
+.dropdown-menu:hover .dropdown-button{
+    color: lightblue
+}
+
+.review{
+    background-color: #eeecec;
+    border-radius: 3%;
+    margin: 2rem;
+}
+
+.hours p{
+    color:#afaeae;
+    line-height: 1rem;
+}
+ .leave_review{
+    width: 25%;
+    background-color: #eeecec;
+    border-radius: 3%;
+ }
+
+ .leave_review label, .leave_review input{
+    padding-right: 10rem;
+ }
